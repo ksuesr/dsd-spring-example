@@ -1,0 +1,705 @@
+18:54:23.306 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'jpaMappingContext' to allow for resolving potential circular references
+18:54:23.311 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'jpaMappingContext'
+18:54:23.311 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'entityManagerFactory'
+18:54:23.381 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'jpaMappingContext'
+18:54:23.381 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'jpaContext'
+18:54:23.381 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'jpaContext'
+18:54:23.385 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.orm.jpa.SharedEntityManagerCreator#0'
+18:54:23.385 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.orm.jpa.SharedEntityManagerCreator#0'
+18:54:23.385 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'entityManagerFactory'
+18:54:23.396 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.orm.jpa.SharedEntityManagerCreator#0' to allow for resolving potential circular references
+18:54:23.399 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.orm.jpa.SharedEntityManagerCreator#0'
+18:54:23.405 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Autowiring by type from bean name 'jpaContext' via constructor to bean named 'org.springframework.orm.jpa.SharedEntityManagerCreator#0'
+18:54:23.405 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'jpaContext' to allow for resolving potential circular references
+18:54:23.406 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'jpaContext'
+18:54:23.406 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'carRepository'
+18:54:23.406 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'carRepository'
+18:54:23.420 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Registered injected element on class [org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean]: PersistenceElement for public void org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.setEntityManager(javax.persistence.EntityManager)
+18:54:23.421 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'carRepository' to allow for resolving potential circular references
+18:54:23.421 [main] DEBUG o.s.b.f.annotation.InjectionMetadata - Processing injected element of bean 'carRepository': PersistenceElement for public void org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.setEntityManager(javax.persistence.EntityManager)
+18:54:23.426 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#669253b7'
+18:54:23.427 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#51a06cbe'
+18:54:23.431 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name '(inner bean)#51a06cbe'
+18:54:23.431 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#51a06cbe'
+18:54:23.432 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#669253b7'
+18:54:23.433 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#781e7326'
+18:54:23.435 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#781e7326'
+18:54:23.436 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean '(inner bean)#329a1243'
+18:54:23.436 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'entityManagerFactory'
+18:54:23.437 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean '(inner bean)#329a1243'
+18:54:23.437 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'jpaMappingContext'
+18:54:23.439 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'carRepository'
+18:54:23.442 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.475 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.477 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.477 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.491 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.491 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.491 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.492 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.498 [main] DEBUG o.s.aop.framework.JdkDynamicAopProxy - Creating JDK dynamic proxy: target source is org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource@6650813a
+18:54:23.543 [main] DEBUG o.s.d.j.r.query.JpaQueryFactory - Looking up query for method findByOrderByMakerAsc
+18:54:23.548 [main] DEBUG o.s.d.j.repository.query.NamedQuery - Looking up named query Car.findByOrderByMakerAsc
+18:54:23.548 [main] DEBUG o.s.d.j.repository.query.NamedQuery - Did not find named query Car.findByOrderByMakerAsc
+18:54:23.559 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.559 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.560 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.560 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.577 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.577 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.577 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.578 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.581 [main] DEBUG o.s.d.j.r.query.JpaQueryFactory - Looking up query for method findByLicenseInfoLicensePlateNumber
+18:54:23.582 [main] DEBUG o.s.d.j.repository.query.NamedQuery - Looking up named query Car.findByLicenseInfoLicensePlateNumber
+18:54:23.582 [main] DEBUG o.s.d.j.repository.query.NamedQuery - Did not find named query Car.findByLicenseInfoLicensePlateNumber
+18:54:23.590 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.590 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.591 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.591 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.596 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.596 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.596 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.597 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.598 [main] DEBUG o.s.d.j.r.query.JpaQueryFactory - Looking up query for method findByLicenseInfoOwnerName
+18:54:23.598 [main] DEBUG o.s.d.j.repository.query.NamedQuery - Looking up named query Car.findByLicenseInfoOwnerName
+18:54:23.598 [main] DEBUG o.s.d.j.repository.query.NamedQuery - Did not find named query Car.findByLicenseInfoOwnerName
+18:54:23.600 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.601 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.602 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.602 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.602 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.603 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.603 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.603 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.605 [main] DEBUG o.s.d.j.r.query.JpaQueryFactory - Looking up query for method findByMaker
+18:54:23.605 [main] DEBUG o.s.d.j.repository.query.NamedQuery - Looking up named query Car.findByMaker
+18:54:23.606 [main] DEBUG o.s.d.j.repository.query.NamedQuery - Did not find named query Car.findByMaker
+18:54:23.606 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.606 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.607 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.607 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.608 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.608 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.608 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.609 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.610 [main] DEBUG o.s.d.j.r.query.JpaQueryFactory - Looking up query for method findByMakeYearBetween
+18:54:23.610 [main] DEBUG o.s.d.j.repository.query.NamedQuery - Looking up named query Car.findByMakeYearBetween
+18:54:23.611 [main] DEBUG o.s.d.j.repository.query.NamedQuery - Did not find named query Car.findByMakeYearBetween
+18:54:23.611 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.611 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.612 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.612 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.613 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.613 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.614 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.614 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.614 [main] DEBUG o.s.aop.framework.JdkDynamicAopProxy - Creating JDK dynamic proxy: target source is SingletonTargetSource for target object [org.springframework.data.jpa.repository.support.SimpleJpaRepository@288a4658]
+18:54:23.619 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'carRepository'
+18:54:23.619 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.orm.jpa.SharedEntityManagerCreator#0'
+18:54:23.619 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+18:54:23.635 [main] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@5d28bcd5]
+18:54:23.635 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+18:54:23.636 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemProperties]
+18:54:23.636 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Searching for key 'spring.liveBeansView.mbeanDomain' in [systemEnvironment]
+18:54:23.637 [main] DEBUG o.s.c.e.PropertySourcesPropertyResolver - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source. Returning [null]
+18:54:23.638 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'carRepository'
+[x595.Main.main()] > Start testing CarRepository
+[x595.Main.main()] > Part 0. insert cars
+18:54:23.651 [main] DEBUG o.s.d.r.c.s.TransactionalRepositoryProxyPostProcessor$CustomAnnotationTransactionAttributeSource - Adding transactional method 'save' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+18:54:23.652 [main] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'transactionManager'
+18:54:23.653 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+18:54:23.654 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [org.hibernate.ejb.EntityManagerImpl@2424686b] for JPA transaction
+18:54:23.656 [main] DEBUG o.h.e.t.spi.AbstractTransactionImpl - begin
+18:54:23.656 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtaining JDBC connection
+18:54:23.656 [main] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false]
+18:54:23.656 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtained JDBC connection
+18:54:23.656 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - initial autocommit status: true
+18:54:23.657 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - disabling autocommit
+18:54:23.658 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@5488b5c5]
+18:54:23.672 [main] DEBUG org.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+18:54:23.675 [main] DEBUG org.hibernate.SQL - insert into Car (id, licensePlateNumber, ownerEmail, ownerName, registrationDate, makeYear, maker, maxSpeed, model) values (null, ?, ?, ?, ?, ?, ?, ?, ?)
+18:54:23.686 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 1
+18:54:23.693 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+18:54:23.693 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [org.hibernate.ejb.EntityManagerImpl@2424686b]
+18:54:23.693 [main] DEBUG o.h.e.t.spi.AbstractTransactionImpl - committing
+18:54:23.694 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+18:54:23.695 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+18:54:23.697 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+18:54:23.697 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+18:54:23.698 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+18:54:23.699 [main] DEBUG o.h.internal.util.EntityPrinter - x595.Car{makeYear=2012, maker=AMG, licenseInfo=component[licensePlateNumber,ownerEmail,ownerName,registrationDate]{licensePlateNumber=N17D3E, ownerName=Jane Doe, registrationDate=Fri Dec 02 18:54:23 KST 2016, ownerEmail=jane@corp.com}, model=A4, id=1, maxSpeed=110}
+18:54:23.700 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - committed JDBC Connection
+18:54:23.700 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - re-enabling autocommit
+18:54:23.701 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [org.hibernate.ejb.EntityManagerImpl@2424686b] after transaction
+18:54:23.701 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.701 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Releasing JDBC connection
+18:54:23.701 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Released JDBC connection
+18:54:23.701 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+18:54:23.702 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [org.hibernate.ejb.EntityManagerImpl@3bc735b3] for JPA transaction
+18:54:23.702 [main] DEBUG o.h.e.t.spi.AbstractTransactionImpl - begin
+18:54:23.702 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtaining JDBC connection
+18:54:23.702 [main] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false]
+18:54:23.702 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtained JDBC connection
+18:54:23.702 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - initial autocommit status: true
+18:54:23.702 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - disabling autocommit
+18:54:23.702 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@4303b7f0]
+18:54:23.703 [main] DEBUG org.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+18:54:23.703 [main] DEBUG org.hibernate.SQL - insert into Car (id, licensePlateNumber, ownerEmail, ownerName, registrationDate, makeYear, maker, maxSpeed, model) values (null, ?, ?, ?, ?, ?, ?, ?, ?)
+18:54:23.704 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 2
+18:54:23.704 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+18:54:23.705 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [org.hibernate.ejb.EntityManagerImpl@3bc735b3]
+18:54:23.705 [main] DEBUG o.h.e.t.spi.AbstractTransactionImpl - committing
+18:54:23.705 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+18:54:23.705 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+18:54:23.705 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+18:54:23.705 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+18:54:23.705 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+18:54:23.705 [main] DEBUG o.h.internal.util.EntityPrinter - x595.Car{makeYear=2008, maker=Genesis, licenseInfo=component[licensePlateNumber,ownerEmail,ownerName,registrationDate]{licensePlateNumber=G99331, ownerName=Josh Maxwell, registrationDate=Fri Dec 02 18:54:23 KST 2016, ownerEmail=josh@googol.com}, model=G20, id=2, maxSpeed=170}
+18:54:23.705 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - committed JDBC Connection
+18:54:23.705 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - re-enabling autocommit
+18:54:23.705 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [org.hibernate.ejb.EntityManagerImpl@3bc735b3] after transaction
+18:54:23.706 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.706 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Releasing JDBC connection
+18:54:23.706 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Released JDBC connection
+18:54:23.706 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+18:54:23.706 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [org.hibernate.ejb.EntityManagerImpl@5c41d037] for JPA transaction
+18:54:23.706 [main] DEBUG o.h.e.t.spi.AbstractTransactionImpl - begin
+18:54:23.706 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtaining JDBC connection
+18:54:23.706 [main] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false]
+18:54:23.706 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtained JDBC connection
+18:54:23.706 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - initial autocommit status: true
+18:54:23.706 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - disabling autocommit
+18:54:23.707 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@5ec77191]
+18:54:23.707 [main] DEBUG org.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+18:54:23.707 [main] DEBUG org.hibernate.SQL - insert into Car (id, licensePlateNumber, ownerEmail, ownerName, registrationDate, makeYear, maker, maxSpeed, model) values (null, ?, ?, ?, ?, ?, ?, ?, ?)
+18:54:23.708 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 3
+18:54:23.708 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+18:54:23.708 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [org.hibernate.ejb.EntityManagerImpl@5c41d037]
+18:54:23.708 [main] DEBUG o.h.e.t.spi.AbstractTransactionImpl - committing
+18:54:23.709 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+18:54:23.709 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+18:54:23.709 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+18:54:23.709 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+18:54:23.709 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+18:54:23.709 [main] DEBUG o.h.internal.util.EntityPrinter - x595.Car{makeYear=2015, maker=Lena, licenseInfo=component[licensePlateNumber,ownerEmail,ownerName,registrationDate]{licensePlateNumber=HL9010, ownerName=JD, registrationDate=Fri Dec 02 18:54:23 KST 2016, ownerEmail=saxe@me.com}, model=sigma, id=3, maxSpeed=150}
+18:54:23.709 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - committed JDBC Connection
+18:54:23.709 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - re-enabling autocommit
+18:54:23.710 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [org.hibernate.ejb.EntityManagerImpl@5c41d037] after transaction
+18:54:23.710 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.710 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Releasing JDBC connection
+18:54:23.710 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Released JDBC connection
+18:54:23.710 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+18:54:23.710 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [org.hibernate.ejb.EntityManagerImpl@c68a5f8] for JPA transaction
+18:54:23.710 [main] DEBUG o.h.e.t.spi.AbstractTransactionImpl - begin
+18:54:23.710 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtaining JDBC connection
+18:54:23.710 [main] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false]
+18:54:23.710 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtained JDBC connection
+18:54:23.711 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - initial autocommit status: true
+18:54:23.711 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - disabling autocommit
+18:54:23.711 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@3aefae67]
+18:54:23.711 [main] DEBUG org.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+18:54:23.711 [main] DEBUG org.hibernate.SQL - insert into Car (id, licensePlateNumber, ownerEmail, ownerName, registrationDate, makeYear, maker, maxSpeed, model) values (null, ?, ?, ?, ?, ?, ?, ?, ?)
+18:54:23.712 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 4
+18:54:23.713 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+18:54:23.713 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [org.hibernate.ejb.EntityManagerImpl@c68a5f8]
+18:54:23.713 [main] DEBUG o.h.e.t.spi.AbstractTransactionImpl - committing
+18:54:23.713 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+18:54:23.713 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+18:54:23.713 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+18:54:23.714 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+18:54:23.714 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+18:54:23.714 [main] DEBUG o.h.internal.util.EntityPrinter - x595.Car{makeYear=2010, maker=AMG, licenseInfo=component[licensePlateNumber,ownerEmail,ownerName,registrationDate]{licensePlateNumber=JDC13X, ownerName=Triple corp, registrationDate=Fri Dec 02 18:54:23 KST 2016, ownerEmail=triple@doodle.org}, model=A7, id=4, maxSpeed=130}
+18:54:23.714 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - committed JDBC Connection
+18:54:23.714 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - re-enabling autocommit
+18:54:23.714 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [org.hibernate.ejb.EntityManagerImpl@c68a5f8] after transaction
+18:54:23.714 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.714 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Releasing JDBC connection
+18:54:23.714 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Released JDBC connection
+18:54:23.714 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.save]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT; ''
+18:54:23.715 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [org.hibernate.ejb.EntityManagerImpl@3eb631b8] for JPA transaction
+18:54:23.715 [main] DEBUG o.h.e.t.spi.AbstractTransactionImpl - begin
+18:54:23.715 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtaining JDBC connection
+18:54:23.715 [main] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false]
+18:54:23.715 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtained JDBC connection
+18:54:23.715 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - initial autocommit status: true
+18:54:23.715 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - disabling autocommit
+18:54:23.715 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@6bff19ff]
+18:54:23.715 [main] DEBUG org.hibernate.engine.spi.ActionQueue - Executing identity-insert immediately
+18:54:23.715 [main] DEBUG org.hibernate.SQL - insert into Car (id, licensePlateNumber, ownerEmail, ownerName, registrationDate, makeYear, maker, maxSpeed, model) values (null, ?, ?, ?, ?, ?, ?, ?, ?)
+18:54:23.716 [main] DEBUG o.h.id.IdentifierGeneratorHelper - Natively generated identity: 5
+18:54:23.717 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+18:54:23.717 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [org.hibernate.ejb.EntityManagerImpl@3eb631b8]
+18:54:23.717 [main] DEBUG o.h.e.t.spi.AbstractTransactionImpl - committing
+18:54:23.717 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Processing flush-time cascades
+18:54:23.717 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Dirty checking collections
+18:54:23.717 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+18:54:23.717 [main] DEBUG o.h.e.i.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+18:54:23.717 [main] DEBUG o.h.internal.util.EntityPrinter - Listing entities:
+18:54:23.718 [main] DEBUG o.h.internal.util.EntityPrinter - x595.Car{makeYear=2011, maker=Tesla, licenseInfo=component[licensePlateNumber,ownerEmail,ownerName,registrationDate]{licensePlateNumber=A75Dc1, ownerName=JD, registrationDate=Fri Dec 02 18:54:23 KST 2016, ownerEmail=pro4@k5.com}, model=T1, id=5, maxSpeed=90}
+18:54:23.718 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - committed JDBC Connection
+18:54:23.718 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - re-enabling autocommit
+18:54:23.718 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [org.hibernate.ejb.EntityManagerImpl@3eb631b8] after transaction
+18:54:23.718 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.718 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Releasing JDBC connection
+18:54:23.718 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Released JDBC connection
+18:54:23.720 [main] DEBUG o.s.d.r.c.s.TransactionalRepositoryProxyPostProcessor$CustomAnnotationTransactionAttributeSource - Adding transactional method 'findAll' with attribute: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+18:54:23.720 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Creating new transaction with name [org.springframework.data.jpa.repository.support.SimpleJpaRepository.findAll]: PROPAGATION_REQUIRED,ISOLATION_DEFAULT,readOnly; ''
+18:54:23.721 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Opened new EntityManager [org.hibernate.ejb.EntityManagerImpl@4d6f197e] for JPA transaction
+18:54:23.723 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtaining JDBC connection
+18:54:23.723 [main] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false]
+18:54:23.724 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtained JDBC connection
+18:54:23.724 [main] DEBUG o.s.jdbc.datasource.DataSourceUtils - Setting JDBC Connection [conn8: url=jdbc:h2:mem:testdb user=SA] read-only
+18:54:23.724 [main] DEBUG o.h.e.t.spi.AbstractTransactionImpl - begin
+18:54:23.724 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - initial autocommit status: true
+18:54:23.724 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - disabling autocommit
+18:54:23.724 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Exposing JPA transaction as JDBC transaction [org.springframework.orm.jpa.vendor.HibernateJpaDialect$HibernateConnectionHandle@4b6ac111]
+18:54:23.727 [main] DEBUG o.h.e.criteria.CriteriaQueryCompiler - Rendered criteria query -> select generatedAlias0 from Car as generatedAlias0
+18:54:23.762 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from x595.Car as generatedAlias0
+18:54:23.772 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[IDENT] Node: 'x595'
+       |     |  \-[IDENT] Node: 'Car'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+18:54:23.772 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+18:54:23.791 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+18:54:23.803 [main] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : x595.Car (generatedAlias0) -> car0_
+18:54:23.804 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : generatedAlias0 -> car0_.id
+18:54:23.806 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+18:54:23.806 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} car0_.id ) ( FromClause{level=1} Car car0_ ) )
+18:54:23.829 [main] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [Car car0_]
+18:54:23.829 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+18:54:23.830 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Car)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'car0_.id as id1_0_' {alias=generatedAlias0, className=x595.Car, tableAlias=car0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'car0_.licensePlateNumber as licenseP2_0_, car0_.ownerEmail as ownerEma3_0_, car0_.ownerName as ownerNam4_0_, car0_.registrationDate as registra5_0_, car0_.makeYear as makeYear6_0_, car0_.maker as maker7_0_, car0_.maxSpeed as maxSpeed8_0_, car0_.model as model9_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[car0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'Car car0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=Car,tableAlias=car0_,origin=null,columns={,className=x595.Car}}
+
+18:54:23.830 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+18:54:23.842 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: select generatedAlias0 from x595.Car as generatedAlias0
+18:54:23.842 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select car0_.id as id1_0_, car0_.licensePlateNumber as licenseP2_0_, car0_.ownerEmail as ownerEma3_0_, car0_.ownerName as ownerNam4_0_, car0_.registrationDate as registra5_0_, car0_.makeYear as makeYear6_0_, car0_.maker as maker7_0_, car0_.maxSpeed as maxSpeed8_0_, car0_.model as model9_0_ from Car car0_
+18:54:23.842 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+18:54:23.855 [main] DEBUG o.s.d.j.r.s.CrudMethodMetadataPostProcessor$ThreadBoundTargetSource - Initializing lazy target object
+18:54:23.860 [main] DEBUG org.hibernate.SQL - select car0_.id as id1_0_, car0_.licensePlateNumber as licenseP2_0_, car0_.ownerEmail as ownerEma3_0_, car0_.ownerName as ownerNam4_0_, car0_.registrationDate as registra5_0_, car0_.makeYear as makeYear6_0_, car0_.maker as maker7_0_, car0_.maxSpeed as maxSpeed8_0_, car0_.model as model9_0_ from Car car0_
+18:54:23.862 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+18:54:23.865 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[x595.Car#1]
+18:54:23.868 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1
+18:54:23.868 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[x595.Car#2]
+18:54:23.869 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2
+18:54:23.869 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[x595.Car#3]
+18:54:23.869 [main] DEBUG org.hibernate.loader.Loader - Result set row: 3
+18:54:23.869 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[x595.Car#4]
+18:54:23.869 [main] DEBUG org.hibernate.loader.Loader - Result set row: 4
+18:54:23.869 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[x595.Car#5]
+18:54:23.870 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [x595.Car#1]
+18:54:23.871 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [x595.Car#1]
+18:54:23.871 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [x595.Car#2]
+18:54:23.871 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [x595.Car#2]
+18:54:23.871 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [x595.Car#3]
+18:54:23.871 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [x595.Car#3]
+18:54:23.871 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [x595.Car#4]
+18:54:23.872 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [x595.Car#4]
+18:54:23.872 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [x595.Car#5]
+18:54:23.872 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [x595.Car#5]
+18:54:23.874 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Initiating transaction commit
+18:54:23.874 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Committing JPA transaction on EntityManager [org.hibernate.ejb.EntityManagerImpl@4d6f197e]
+18:54:23.874 [main] DEBUG o.h.e.t.spi.AbstractTransactionImpl - committing
+18:54:23.874 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - committed JDBC Connection
+18:54:23.874 [main] DEBUG o.h.e.t.i.jdbc.JdbcTransaction - re-enabling autocommit
+18:54:23.874 [main] DEBUG o.s.orm.jpa.JpaTransactionManager - Closing JPA EntityManager [org.hibernate.ejb.EntityManagerImpl@4d6f197e] after transaction
+18:54:23.874 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.875 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Releasing JDBC connection
+18:54:23.875 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Released JDBC connection
+[x595.Main.main()] > Part 0. result of inserted car: 
+[x595.Main.main()] > Car [id=1, maker=AMG, model=A4, makeYear=2012, maxSpeed=110, licenseInfo=LicenceInfo [ownerName=Jane Doe, ownerEmail=jane@corp.com, registrationDate=2016-12-02, licensePlateNumber=N17D3E]]
+[x595.Main.main()] > Car [id=2, maker=Genesis, model=G20, makeYear=2008, maxSpeed=170, licenseInfo=LicenceInfo [ownerName=Josh Maxwell, ownerEmail=josh@googol.com, registrationDate=2016-12-02, licensePlateNumber=G99331]]
+[x595.Main.main()] > Car [id=3, maker=Lena, model=sigma, makeYear=2015, maxSpeed=150, licenseInfo=LicenceInfo [ownerName=JD, ownerEmail=saxe@me.com, registrationDate=2016-12-02, licensePlateNumber=HL9010]]
+[x595.Main.main()] > Car [id=4, maker=AMG, model=A7, makeYear=2010, maxSpeed=130, licenseInfo=LicenceInfo [ownerName=Triple corp, ownerEmail=triple@doodle.org, registrationDate=2016-12-02, licensePlateNumber=JDC13X]]
+[x595.Main.main()] > Car [id=5, maker=Tesla, model=T1, makeYear=2011, maxSpeed=90, licenseInfo=LicenceInfo [ownerName=JD, ownerEmail=pro4@k5.com, registrationDate=2016-12-02, licensePlateNumber=A75Dc1]]
+[x595.Main.main()] > Part 1. findByOrderByMakerAsc
+18:54:23.879 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.880 [main] DEBUG o.h.e.criteria.CriteriaQueryCompiler - Rendered criteria query -> select generatedAlias0 from Car as generatedAlias0 order by generatedAlias0.maker asc
+18:54:23.880 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from x595.Car as generatedAlias0 order by generatedAlias0.maker asc
+18:54:23.883 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[IDENT] Node: 'x595'
+    |  |     |  \-[IDENT] Node: 'Car'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[ORDER] Node: 'order'
+       +-[DOT] Node: '.'
+       |  +-[IDENT] Node: 'generatedAlias0'
+       |  \-[IDENT] Node: 'maker'
+       \-[ASCENDING] Node: 'asc'
+
+18:54:23.883 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+18:54:23.883 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+18:54:23.883 [main] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : x595.Car (generatedAlias0) -> car0_
+18:54:23.883 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : generatedAlias0 -> car0_.id
+18:54:23.884 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : generatedAlias0 -> car0_.id
+18:54:23.885 [main] DEBUG o.h.hql.internal.ast.tree.DotNode - getDataType() : maker -> org.hibernate.type.StringType@69c81773
+18:54:23.886 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : generatedAlias0.maker -> car0_.maker
+18:54:23.886 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+18:54:23.886 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} car0_.id ) ( FromClause{level=1} Car car0_ ) ( order ( car0_.maker car0_.id maker ) asc ) )
+18:54:23.886 [main] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [Car car0_]
+18:54:23.886 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+18:54:23.887 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Car)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'car0_.id as id1_0_' {alias=generatedAlias0, className=x595.Car, tableAlias=car0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'car0_.licensePlateNumber as licenseP2_0_, car0_.ownerEmail as ownerEma3_0_, car0_.ownerName as ownerNam4_0_, car0_.registrationDate as registra5_0_, car0_.makeYear as makeYear6_0_, car0_.maker as maker7_0_, car0_.maxSpeed as maxSpeed8_0_, car0_.model as model9_0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[car0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'Car car0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=Car,tableAlias=car0_,origin=null,columns={,className=x595.Car}}
+    \-[ORDER] OrderByClause: 'order'
+       +-[DOT] DotNode: 'car0_.maker' {propertyName=maker,dereferenceType=ALL,propertyPath=maker,path=generatedAlias0.maker,tableAlias=car0_,className=x595.Car,classAlias=generatedAlias0}
+       |  +-[ALIAS_REF] IdentNode: 'car0_.id' {alias=generatedAlias0, className=x595.Car, tableAlias=car0_}
+       |  \-[IDENT] IdentNode: 'maker' {originalText=maker}
+       \-[ASCENDING] SqlNode: 'asc'
+
+18:54:23.887 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+18:54:23.887 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: select generatedAlias0 from x595.Car as generatedAlias0 order by generatedAlias0.maker asc
+18:54:23.887 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select car0_.id as id1_0_, car0_.licensePlateNumber as licenseP2_0_, car0_.ownerEmail as ownerEma3_0_, car0_.ownerName as ownerNam4_0_, car0_.registrationDate as registra5_0_, car0_.makeYear as makeYear6_0_, car0_.maker as maker7_0_, car0_.maxSpeed as maxSpeed8_0_, car0_.model as model9_0_ from Car car0_ order by car0_.maker asc
+18:54:23.887 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+18:54:23.892 [main] DEBUG org.hibernate.SQL - select car0_.id as id1_0_, car0_.licensePlateNumber as licenseP2_0_, car0_.ownerEmail as ownerEma3_0_, car0_.ownerName as ownerNam4_0_, car0_.registrationDate as registra5_0_, car0_.makeYear as makeYear6_0_, car0_.maker as maker7_0_, car0_.maxSpeed as maxSpeed8_0_, car0_.model as model9_0_ from Car car0_ order by car0_.maker asc
+18:54:23.893 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtaining JDBC connection
+18:54:23.893 [main] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false]
+18:54:23.893 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtained JDBC connection
+18:54:23.894 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+18:54:23.894 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[x595.Car#1]
+18:54:23.894 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1
+18:54:23.894 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[x595.Car#4]
+18:54:23.895 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2
+18:54:23.895 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[x595.Car#2]
+18:54:23.895 [main] DEBUG org.hibernate.loader.Loader - Result set row: 3
+18:54:23.895 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[x595.Car#3]
+18:54:23.895 [main] DEBUG org.hibernate.loader.Loader - Result set row: 4
+18:54:23.896 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[x595.Car#5]
+18:54:23.896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [x595.Car#1]
+18:54:23.896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [x595.Car#1]
+18:54:23.896 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [x595.Car#4]
+18:54:23.897 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [x595.Car#4]
+18:54:23.897 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [x595.Car#2]
+18:54:23.897 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [x595.Car#2]
+18:54:23.897 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [x595.Car#3]
+18:54:23.897 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [x595.Car#3]
+18:54:23.897 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [x595.Car#5]
+18:54:23.897 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [x595.Car#5]
+18:54:23.898 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.898 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Releasing JDBC connection
+18:54:23.898 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Released JDBC connection
+[x595.Main.main()] > Result: 
+[x595.Main.main()] > Car [id=1, maker=AMG, model=A4, makeYear=2012, maxSpeed=110, licenseInfo=LicenceInfo [ownerName=Jane Doe, ownerEmail=jane@corp.com, registrationDate=2016-12-02, licensePlateNumber=N17D3E]]
+[x595.Main.main()] > Car [id=4, maker=AMG, model=A7, makeYear=2010, maxSpeed=130, licenseInfo=LicenceInfo [ownerName=Triple corp, ownerEmail=triple@doodle.org, registrationDate=2016-12-02, licensePlateNumber=JDC13X]]
+[x595.Main.main()] > Car [id=2, maker=Genesis, model=G20, makeYear=2008, maxSpeed=170, licenseInfo=LicenceInfo [ownerName=Josh Maxwell, ownerEmail=josh@googol.com, registrationDate=2016-12-02, licensePlateNumber=G99331]]
+[x595.Main.main()] > Car [id=3, maker=Lena, model=sigma, makeYear=2015, maxSpeed=150, licenseInfo=LicenceInfo [ownerName=JD, ownerEmail=saxe@me.com, registrationDate=2016-12-02, licensePlateNumber=HL9010]]
+[x595.Main.main()] > Car [id=5, maker=Tesla, model=T1, makeYear=2011, maxSpeed=90, licenseInfo=LicenceInfo [ownerName=JD, ownerEmail=pro4@k5.com, registrationDate=2016-12-02, licensePlateNumber=A75Dc1]]
+[x595.Main.main()] > Part 2. findByLicenseInfoOwnerName
+18:54:23.899 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.900 [main] DEBUG o.h.e.criteria.CriteriaQueryCompiler - Rendered criteria query -> select generatedAlias0 from Car as generatedAlias0 where generatedAlias0.licenseInfo.ownerName=:param0
+18:54:23.900 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from x595.Car as generatedAlias0 where generatedAlias0.licenseInfo.ownerName=:param0
+18:54:23.902 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[IDENT] Node: 'x595'
+    |  |     |  \-[IDENT] Node: 'Car'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[DOT] Node: '.'
+          |  |  +-[IDENT] Node: 'generatedAlias0'
+          |  |  \-[IDENT] Node: 'licenseInfo'
+          |  \-[IDENT] Node: 'ownerName'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param0'
+
+18:54:23.902 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+18:54:23.903 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+18:54:23.903 [main] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : x595.Car (generatedAlias0) -> car0_
+18:54:23.903 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : generatedAlias0 -> car0_.id
+18:54:23.905 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : generatedAlias0 -> car0_.id
+18:54:23.905 [main] DEBUG o.h.hql.internal.ast.tree.DotNode - getDataType() : licenseInfo -> org.hibernate.type.ComponentType@198ef2ce
+18:54:23.905 [main] DEBUG o.h.hql.internal.ast.tree.DotNode - Unresolved property path is now 'licenseInfo.ownerName'
+18:54:23.905 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : generatedAlias0.licenseInfo -> car0_.ownerName
+18:54:23.905 [main] DEBUG o.h.hql.internal.ast.tree.DotNode - getDataType() : licenseInfo.ownerName -> org.hibernate.type.StringType@69c81773
+18:54:23.905 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : generatedAlias0.licenseInfo.ownerName -> car0_.ownerName
+18:54:23.907 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+18:54:23.907 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} car0_.id ) ( FromClause{level=1} Car car0_ ) ( where ( = ( car0_.ownerName ( car0_.ownerName car0_.id licenseInfo ) ownerName ) ? ) ) )
+18:54:23.908 [main] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [Car car0_]
+18:54:23.908 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+18:54:23.908 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Car)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'car0_.id as id1_0_' {alias=generatedAlias0, className=x595.Car, tableAlias=car0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'car0_.licensePlateNumber as licenseP2_0_, car0_.ownerEmail as ownerEma3_0_, car0_.ownerName as ownerNam4_0_, car0_.registrationDate as registra5_0_, car0_.makeYear as makeYear6_0_, car0_.maker as maker7_0_, car0_.maxSpeed as maxSpeed8_0_, car0_.model as model9_0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[car0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'Car car0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=Car,tableAlias=car0_,origin=null,columns={,className=x595.Car}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'car0_.ownerName' {propertyName=ownerName,dereferenceType=ALL,propertyPath=licenseInfo.ownerName,path=generatedAlias0.licenseInfo.ownerName,tableAlias=car0_,className=x595.Car,classAlias=generatedAlias0}
+          |  +-[DOT] DotNode: 'car0_.ownerName' {propertyName=ownerName,dereferenceType=2,propertyPath=licenseInfo.ownerName,path=generatedAlias0.licenseInfo,tableAlias=car0_,className=x595.Car,classAlias=generatedAlias0}
+          |  |  +-[ALIAS_REF] IdentNode: 'car0_.id' {alias=generatedAlias0, className=x595.Car, tableAlias=car0_}
+          |  |  \-[IDENT] IdentNode: 'licenseInfo' {originalText=licenseInfo}
+          |  \-[IDENT] IdentNode: 'ownerName' {originalText=ownerName}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.StringType@69c81773}
+
+18:54:23.908 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+18:54:23.909 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: select generatedAlias0 from x595.Car as generatedAlias0 where generatedAlias0.licenseInfo.ownerName=:param0
+18:54:23.909 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select car0_.id as id1_0_, car0_.licensePlateNumber as licenseP2_0_, car0_.ownerEmail as ownerEma3_0_, car0_.ownerName as ownerNam4_0_, car0_.registrationDate as registra5_0_, car0_.makeYear as makeYear6_0_, car0_.maker as maker7_0_, car0_.maxSpeed as maxSpeed8_0_, car0_.model as model9_0_ from Car car0_ where car0_.ownerName=?
+18:54:23.909 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+18:54:23.913 [main] DEBUG org.hibernate.SQL - select car0_.id as id1_0_, car0_.licensePlateNumber as licenseP2_0_, car0_.ownerEmail as ownerEma3_0_, car0_.ownerName as ownerNam4_0_, car0_.registrationDate as registra5_0_, car0_.makeYear as makeYear6_0_, car0_.maker as maker7_0_, car0_.maxSpeed as maxSpeed8_0_, car0_.model as model9_0_ from Car car0_ where car0_.ownerName=?
+18:54:23.913 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtaining JDBC connection
+18:54:23.913 [main] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false]
+18:54:23.913 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtained JDBC connection
+18:54:23.914 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+18:54:23.915 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[x595.Car#3]
+18:54:23.915 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1
+18:54:23.915 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[x595.Car#5]
+18:54:23.915 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [x595.Car#3]
+18:54:23.916 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [x595.Car#3]
+18:54:23.916 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [x595.Car#5]
+18:54:23.916 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [x595.Car#5]
+18:54:23.917 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.917 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Releasing JDBC connection
+18:54:23.917 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Released JDBC connection
+[x595.Main.main()] > Result: 
+[x595.Main.main()] > Car [id=3, maker=Lena, model=sigma, makeYear=2015, maxSpeed=150, licenseInfo=LicenceInfo [ownerName=JD, ownerEmail=saxe@me.com, registrationDate=2016-12-02, licensePlateNumber=HL9010]]
+[x595.Main.main()] > Car [id=5, maker=Tesla, model=T1, makeYear=2011, maxSpeed=90, licenseInfo=LicenceInfo [ownerName=JD, ownerEmail=pro4@k5.com, registrationDate=2016-12-02, licensePlateNumber=A75Dc1]]
+[x595.Main.main()] > Part 3. findByMaker
+18:54:23.918 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.918 [main] DEBUG o.h.e.criteria.CriteriaQueryCompiler - Rendered criteria query -> select generatedAlias0 from Car as generatedAlias0 where generatedAlias0.maker=:param0
+18:54:23.919 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from x595.Car as generatedAlias0 where generatedAlias0.maker=:param0
+18:54:23.920 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[IDENT] Node: 'x595'
+    |  |     |  \-[IDENT] Node: 'Car'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'maker'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param0'
+
+18:54:23.921 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+18:54:23.921 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+18:54:23.921 [main] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : x595.Car (generatedAlias0) -> car0_
+18:54:23.922 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : generatedAlias0 -> car0_.id
+18:54:23.922 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : generatedAlias0 -> car0_.id
+18:54:23.922 [main] DEBUG o.h.hql.internal.ast.tree.DotNode - getDataType() : maker -> org.hibernate.type.StringType@69c81773
+18:54:23.922 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : generatedAlias0.maker -> car0_.maker
+18:54:23.922 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+18:54:23.922 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} car0_.id ) ( FromClause{level=1} Car car0_ ) ( where ( = ( car0_.maker car0_.id maker ) ? ) ) )
+18:54:23.923 [main] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [Car car0_]
+18:54:23.923 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+18:54:23.923 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Car)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'car0_.id as id1_0_' {alias=generatedAlias0, className=x595.Car, tableAlias=car0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'car0_.licensePlateNumber as licenseP2_0_, car0_.ownerEmail as ownerEma3_0_, car0_.ownerName as ownerNam4_0_, car0_.registrationDate as registra5_0_, car0_.makeYear as makeYear6_0_, car0_.maker as maker7_0_, car0_.maxSpeed as maxSpeed8_0_, car0_.model as model9_0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[car0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'Car car0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=Car,tableAlias=car0_,origin=null,columns={,className=x595.Car}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'car0_.maker' {propertyName=maker,dereferenceType=ALL,propertyPath=maker,path=generatedAlias0.maker,tableAlias=car0_,className=x595.Car,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'car0_.id' {alias=generatedAlias0, className=x595.Car, tableAlias=car0_}
+          |  \-[IDENT] IdentNode: 'maker' {originalText=maker}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.StringType@69c81773}
+
+18:54:23.923 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+18:54:23.923 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: select generatedAlias0 from x595.Car as generatedAlias0 where generatedAlias0.maker=:param0
+18:54:23.923 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select car0_.id as id1_0_, car0_.licensePlateNumber as licenseP2_0_, car0_.ownerEmail as ownerEma3_0_, car0_.ownerName as ownerNam4_0_, car0_.registrationDate as registra5_0_, car0_.makeYear as makeYear6_0_, car0_.maker as maker7_0_, car0_.maxSpeed as maxSpeed8_0_, car0_.model as model9_0_ from Car car0_ where car0_.maker=?
+18:54:23.923 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+18:54:23.924 [main] DEBUG org.hibernate.SQL - select car0_.id as id1_0_, car0_.licensePlateNumber as licenseP2_0_, car0_.ownerEmail as ownerEma3_0_, car0_.ownerName as ownerNam4_0_, car0_.registrationDate as registra5_0_, car0_.makeYear as makeYear6_0_, car0_.maker as maker7_0_, car0_.maxSpeed as maxSpeed8_0_, car0_.model as model9_0_ from Car car0_ where car0_.maker=?
+18:54:23.924 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtaining JDBC connection
+18:54:23.924 [main] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false]
+18:54:23.925 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtained JDBC connection
+18:54:23.925 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+18:54:23.925 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[x595.Car#1]
+18:54:23.926 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1
+18:54:23.926 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[x595.Car#4]
+18:54:23.926 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [x595.Car#1]
+18:54:23.926 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [x595.Car#1]
+18:54:23.926 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [x595.Car#4]
+18:54:23.926 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [x595.Car#4]
+18:54:23.927 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.927 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Releasing JDBC connection
+18:54:23.928 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Released JDBC connection
+[x595.Main.main()] > Result: 
+[x595.Main.main()] > Car [id=1, maker=AMG, model=A4, makeYear=2012, maxSpeed=110, licenseInfo=LicenceInfo [ownerName=Jane Doe, ownerEmail=jane@corp.com, registrationDate=2016-12-02, licensePlateNumber=N17D3E]]
+[x595.Main.main()] > Car [id=4, maker=AMG, model=A7, makeYear=2010, maxSpeed=130, licenseInfo=LicenceInfo [ownerName=Triple corp, ownerEmail=triple@doodle.org, registrationDate=2016-12-02, licensePlateNumber=JDC13X]]
+[x595.Main.main()] > Part 4. findByMakeYearBetween
+18:54:23.929 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.929 [main] DEBUG o.h.e.criteria.CriteriaQueryCompiler - Rendered criteria query -> select generatedAlias0 from Car as generatedAlias0 where generatedAlias0.makeYear between :param0 and :param1
+18:54:23.929 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from x595.Car as generatedAlias0 where generatedAlias0.makeYear between :param0 and :param1
+18:54:23.931 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[IDENT] Node: 'x595'
+    |  |     |  \-[IDENT] Node: 'Car'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[BETWEEN] Node: 'between'
+          +-[DOT] Node: '.'
+          |  +-[IDENT] Node: 'generatedAlias0'
+          |  \-[IDENT] Node: 'makeYear'
+          +-[COLON] Node: ':'
+          |  \-[IDENT] Node: 'param0'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param1'
+
+18:54:23.931 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+18:54:23.932 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+18:54:23.932 [main] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : x595.Car (generatedAlias0) -> car0_
+18:54:23.932 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : generatedAlias0 -> car0_.id
+18:54:23.933 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : generatedAlias0 -> car0_.id
+18:54:23.933 [main] DEBUG o.h.hql.internal.ast.tree.DotNode - getDataType() : makeYear -> org.hibernate.type.IntegerType@5f8e8a9d
+18:54:23.933 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : generatedAlias0.makeYear -> car0_.makeYear
+18:54:23.933 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+18:54:23.933 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} car0_.id ) ( FromClause{level=1} Car car0_ ) ( where ( between ( car0_.makeYear car0_.id makeYear ) ? ? ) ) )
+18:54:23.934 [main] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [Car car0_]
+18:54:23.934 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+18:54:23.934 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Car)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'car0_.id as id1_0_' {alias=generatedAlias0, className=x595.Car, tableAlias=car0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'car0_.licensePlateNumber as licenseP2_0_, car0_.ownerEmail as ownerEma3_0_, car0_.ownerName as ownerNam4_0_, car0_.registrationDate as registra5_0_, car0_.makeYear as makeYear6_0_, car0_.maker as maker7_0_, car0_.maxSpeed as maxSpeed8_0_, car0_.model as model9_0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[car0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'Car car0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=Car,tableAlias=car0_,origin=null,columns={,className=x595.Car}}
+    \-[WHERE] SqlNode: 'where'
+       \-[BETWEEN] BetweenOperatorNode: 'between'
+          +-[DOT] DotNode: 'car0_.makeYear' {propertyName=makeYear,dereferenceType=ALL,propertyPath=makeYear,path=generatedAlias0.makeYear,tableAlias=car0_,className=x595.Car,classAlias=generatedAlias0}
+          |  +-[ALIAS_REF] IdentNode: 'car0_.id' {alias=generatedAlias0, className=x595.Car, tableAlias=car0_}
+          |  \-[IDENT] IdentNode: 'makeYear' {originalText=makeYear}
+          +-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.IntegerType@5f8e8a9d}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param1, expectedType=org.hibernate.type.IntegerType@5f8e8a9d}
+
+18:54:23.934 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+18:54:23.935 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: select generatedAlias0 from x595.Car as generatedAlias0 where generatedAlias0.makeYear between :param0 and :param1
+18:54:23.935 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select car0_.id as id1_0_, car0_.licensePlateNumber as licenseP2_0_, car0_.ownerEmail as ownerEma3_0_, car0_.ownerName as ownerNam4_0_, car0_.registrationDate as registra5_0_, car0_.makeYear as makeYear6_0_, car0_.maker as maker7_0_, car0_.maxSpeed as maxSpeed8_0_, car0_.model as model9_0_ from Car car0_ where car0_.makeYear between ? and ?
+18:54:23.935 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+18:54:23.935 [main] DEBUG org.hibernate.SQL - select car0_.id as id1_0_, car0_.licensePlateNumber as licenseP2_0_, car0_.ownerEmail as ownerEma3_0_, car0_.ownerName as ownerNam4_0_, car0_.registrationDate as registra5_0_, car0_.makeYear as makeYear6_0_, car0_.maker as maker7_0_, car0_.maxSpeed as maxSpeed8_0_, car0_.model as model9_0_ from Car car0_ where car0_.makeYear between ? and ?
+18:54:23.935 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtaining JDBC connection
+18:54:23.935 [main] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false]
+18:54:23.936 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtained JDBC connection
+18:54:23.937 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+18:54:23.937 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[x595.Car#1]
+18:54:23.937 [main] DEBUG org.hibernate.loader.Loader - Result set row: 1
+18:54:23.938 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[x595.Car#4]
+18:54:23.938 [main] DEBUG org.hibernate.loader.Loader - Result set row: 2
+18:54:23.938 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[x595.Car#5]
+18:54:23.938 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [x595.Car#1]
+18:54:23.938 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [x595.Car#1]
+18:54:23.938 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [x595.Car#4]
+18:54:23.938 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [x595.Car#4]
+18:54:23.938 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [x595.Car#5]
+18:54:23.939 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [x595.Car#5]
+18:54:23.939 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.939 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Releasing JDBC connection
+18:54:23.939 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Released JDBC connection
+[x595.Main.main()] > Result: 
+[x595.Main.main()] > Car [id=1, maker=AMG, model=A4, makeYear=2012, maxSpeed=110, licenseInfo=LicenceInfo [ownerName=Jane Doe, ownerEmail=jane@corp.com, registrationDate=2016-12-02, licensePlateNumber=N17D3E]]
+[x595.Main.main()] > Car [id=4, maker=AMG, model=A7, makeYear=2010, maxSpeed=130, licenseInfo=LicenceInfo [ownerName=Triple corp, ownerEmail=triple@doodle.org, registrationDate=2016-12-02, licensePlateNumber=JDC13X]]
+[x595.Main.main()] > Car [id=5, maker=Tesla, model=T1, makeYear=2011, maxSpeed=90, licenseInfo=LicenceInfo [ownerName=JD, ownerEmail=pro4@k5.com, registrationDate=2016-12-02, licensePlateNumber=A75Dc1]]
+[x595.Main.main()] > Part 5. findByLicenseInfoLicensePlateNumber
+18:54:23.940 [main] DEBUG o.s.o.j.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler - Creating new EntityManager for shared EntityManager invocation
+18:54:23.941 [main] DEBUG o.h.e.criteria.CriteriaQueryCompiler - Rendered criteria query -> select generatedAlias0 from Car as generatedAlias0 where generatedAlias0.licenseInfo.licensePlateNumber=:param0
+18:54:23.941 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - parse() - HQL: select generatedAlias0 from x595.Car as generatedAlias0 where generatedAlias0.licenseInfo.licensePlateNumber=:param0
+18:54:23.943 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    +-[SELECT_FROM] Node: 'SELECT_FROM'
+    |  +-[FROM] Node: 'from'
+    |  |  \-[RANGE] Node: 'RANGE'
+    |  |     +-[DOT] Node: '.'
+    |  |     |  +-[IDENT] Node: 'x595'
+    |  |     |  \-[IDENT] Node: 'Car'
+    |  |     \-[ALIAS] Node: 'generatedAlias0'
+    |  \-[SELECT] Node: 'select'
+    |     \-[IDENT] Node: 'generatedAlias0'
+    \-[WHERE] Node: 'where'
+       \-[EQ] Node: '='
+          +-[DOT] Node: '.'
+          |  +-[DOT] Node: '.'
+          |  |  +-[IDENT] Node: 'generatedAlias0'
+          |  |  \-[IDENT] Node: 'licenseInfo'
+          |  \-[IDENT] Node: 'licensePlateNumber'
+          \-[COLON] Node: ':'
+             \-[IDENT] Node: 'param0'
+
+18:54:23.943 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+18:54:23.943 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select << begin [level=1, statement=select]
+18:54:23.944 [main] DEBUG o.h.h.internal.ast.tree.FromElement - FromClause{level=1} : x595.Car (generatedAlias0) -> car0_
+18:54:23.944 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : generatedAlias0 -> car0_.id
+18:54:23.944 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : generatedAlias0 -> car0_.id
+18:54:23.944 [main] DEBUG o.h.hql.internal.ast.tree.DotNode - getDataType() : licenseInfo -> org.hibernate.type.ComponentType@198ef2ce
+18:54:23.944 [main] DEBUG o.h.hql.internal.ast.tree.DotNode - Unresolved property path is now 'licenseInfo.licensePlateNumber'
+18:54:23.944 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : generatedAlias0.licenseInfo -> car0_.licensePlateNumber
+18:54:23.944 [main] DEBUG o.h.hql.internal.ast.tree.DotNode - getDataType() : licenseInfo.licensePlateNumber -> org.hibernate.type.StringType@69c81773
+18:54:23.944 [main] DEBUG o.h.h.i.ast.tree.FromReferenceNode - Resolved : generatedAlias0.licenseInfo.licensePlateNumber -> car0_.licensePlateNumber
+18:54:23.944 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select : finishing up [level=1, statement=select]
+18:54:23.944 [main] DEBUG o.h.hql.internal.ast.HqlSqlWalker - processQuery() :  ( SELECT ( {select clause} car0_.id ) ( FromClause{level=1} Car car0_ ) ( where ( = ( car0_.licensePlateNumber ( car0_.licensePlateNumber car0_.id licenseInfo ) licensePlateNumber ) ? ) ) )
+18:54:23.945 [main] DEBUG o.h.h.i.ast.util.JoinProcessor - Using FROM fragment [Car car0_]
+18:54:23.945 [main] DEBUG o.h.h.i.antlr.HqlSqlBaseWalker - select >> end [level=1, statement=select]
+18:54:23.945 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (Car)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'car0_.id as id1_0_' {alias=generatedAlias0, className=x595.Car, tableAlias=car0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'car0_.licensePlateNumber as licenseP2_0_, car0_.ownerEmail as ownerEma3_0_, car0_.ownerName as ownerNam4_0_, car0_.registrationDate as registra5_0_, car0_.makeYear as makeYear6_0_, car0_.maker as maker7_0_, car0_.maxSpeed as maxSpeed8_0_, car0_.model as model9_0_'
+    +-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[car0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+    |  \-[FROM_FRAGMENT] FromElement: 'Car car0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=Car,tableAlias=car0_,origin=null,columns={,className=x595.Car}}
+    \-[WHERE] SqlNode: 'where'
+       \-[EQ] BinaryLogicOperatorNode: '='
+          +-[DOT] DotNode: 'car0_.licensePlateNumber' {propertyName=licensePlateNumber,dereferenceType=ALL,propertyPath=licenseInfo.licensePlateNumber,path=generatedAlias0.licenseInfo.licensePlateNumber,tableAlias=car0_,className=x595.Car,classAlias=generatedAlias0}
+          |  +-[DOT] DotNode: 'car0_.licensePlateNumber' {propertyName=licensePlateNumber,dereferenceType=2,propertyPath=licenseInfo.licensePlateNumber,path=generatedAlias0.licenseInfo,tableAlias=car0_,className=x595.Car,classAlias=generatedAlias0}
+          |  |  +-[ALIAS_REF] IdentNode: 'car0_.id' {alias=generatedAlias0, className=x595.Car, tableAlias=car0_}
+          |  |  \-[IDENT] IdentNode: 'licenseInfo' {originalText=licenseInfo}
+          |  \-[IDENT] IdentNode: 'licensePlateNumber' {originalText=licensePlateNumber}
+          \-[NAMED_PARAM] ParameterNode: '?' {name=param0, expectedType=org.hibernate.type.StringType@69c81773}
+
+18:54:23.945 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+18:54:23.945 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - HQL: select generatedAlias0 from x595.Car as generatedAlias0 where generatedAlias0.licenseInfo.licensePlateNumber=:param0
+18:54:23.945 [main] DEBUG o.h.h.i.ast.QueryTranslatorImpl - SQL: select car0_.id as id1_0_, car0_.licensePlateNumber as licenseP2_0_, car0_.ownerEmail as ownerEma3_0_, car0_.ownerName as ownerNam4_0_, car0_.registrationDate as registra5_0_, car0_.makeYear as makeYear6_0_, car0_.maker as maker7_0_, car0_.maxSpeed as maxSpeed8_0_, car0_.model as model9_0_ from Car car0_ where car0_.licensePlateNumber=?
+18:54:23.945 [main] DEBUG o.h.hql.internal.ast.ErrorCounter - throwQueryException() : no errors
+18:54:23.946 [main] DEBUG org.hibernate.SQL - select car0_.id as id1_0_, car0_.licensePlateNumber as licenseP2_0_, car0_.ownerEmail as ownerEma3_0_, car0_.ownerName as ownerNam4_0_, car0_.registrationDate as registra5_0_, car0_.makeYear as makeYear6_0_, car0_.maker as maker7_0_, car0_.maxSpeed as maxSpeed8_0_, car0_.model as model9_0_ from Car car0_ where car0_.licensePlateNumber=?
+18:54:23.946 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtaining JDBC connection
+18:54:23.946 [main] DEBUG o.s.j.d.SimpleDriverDataSource - Creating new JDBC Driver Connection to [jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false]
+18:54:23.946 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Obtained JDBC connection
+18:54:23.947 [main] DEBUG org.hibernate.loader.Loader - Result set row: 0
+18:54:23.947 [main] DEBUG org.hibernate.loader.Loader - Result row: EntityKey[x595.Car#3]
+18:54:23.947 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Resolving associations for [x595.Car#3]
+18:54:23.947 [main] DEBUG o.h.engine.internal.TwoPhaseLoad - Done materializing entity [x595.Car#3]
+18:54:23.948 [main] DEBUG o.s.o.jpa.EntityManagerFactoryUtils - Closing JPA EntityManager
+18:54:23.948 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Releasing JDBC connection
+18:54:23.948 [main] DEBUG o.h.e.j.i.LogicalConnectionImpl - Released JDBC connection
+[x595.Main.main()] > Result: 
+[x595.Main.main()] > Car [id=3, maker=Lena, model=sigma, makeYear=2015, maxSpeed=150, licenseInfo=LicenceInfo [ownerName=JD, ownerEmail=saxe@me.com, registrationDate=2016-12-02, licensePlateNumber=HL9010]]

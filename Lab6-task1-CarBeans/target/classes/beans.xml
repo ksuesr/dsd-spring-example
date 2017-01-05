@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="car" class="x595.SportsCar">
+        <constructor-arg ref="engine" />
+    </bean>
+    
+    <bean id="driver" class="x595.HumanDriver">
+        <constructor-arg ref="car" />
+    </bean>
+    
+    <bean id="engine" class="x595.CombustionEngine">
+        
+    </bean>
+</beans>
